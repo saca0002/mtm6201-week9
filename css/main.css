@@ -1,0 +1,41 @@
+:root{
+    --bs-primary: #C78C06;
+    --bs-secondary: #FFE6AC;
+    --bs-primary-rgb: 199, 140, 6;
+    --bs-secondary-rgb: 255, 230, 172;
+    --bs-primary-text-emphasis: #C78C06;
+    --bs-secondary-text-emphasis: #FFE6AC;
+    --bs-primary-bg-subtle: #c09b47;
+    --bs-secondary-bg-subtle: #f9eed4;
+    --bs-primary-border-subtle: #c09b47;
+    --bs-secondary-border-subtle: #f9eed4;
+  }
+  .btn-outline-primary,
+  .btn-primary {
+    --bs-btn-color: #000;
+    --bs-btn-bg: var(--bs-primary);
+    --bs-btn-border-color: var(--bs-primary);
+    --bs-btn-hover-bg: var(--bs-primary);
+    --bs-btn-hover-border-color: var(--bs-primary);
+    --bs-btn-active-bg: var(--bs-primary-bg-subtle);
+    --bs-btn-active-border-color: var(--bs-primary-bg-subtle);
+    --bs-btn-disabled-bg: var(--bs-primary-bg-subtle);
+    --bs-btn-disabled-border-color: var(--bs-primary-bg-subtle);
+  }
+  .btn-outline-primary{
+    --bs-btn-bg: transparent;
+    --bs-btn-color: var(--bs-primary);
+  }
+  .banner{
+    background: white url(../images/main-banner.jpg) no-repeat center;
+    background-size: cover;
+  }
+  .vision{
+    background: #000 url(../images/vision.jpg) no-repeat center;
+    background-size: cover;
+  }
+  iframe{
+    width: 100%;
+    height: 300px;
+    border: 0;
+  }
